@@ -1,4 +1,3 @@
-// 1. Menu driven program for Stack operations using array
 #include <iostream>
 using namespace std;
 

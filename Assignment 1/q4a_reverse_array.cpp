@@ -1,4 +1,4 @@
-// Q4a: Reverse array
+
 #include <iostream>
 using namespace std;
 

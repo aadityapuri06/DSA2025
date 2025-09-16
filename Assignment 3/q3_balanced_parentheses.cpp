@@ -1,4 +1,4 @@
-// 3. Write a program that checks if an expression has balanced parentheses.
+
 #include <iostream>
 #include <string>
 #include <stack>
@@ -11,18 +11,18 @@ bool areParenthesesBalanced(string expr) {
             s.push(c);
         } else if (c == ')' || c == '}' || c == ']') {
             if (s.empty()) {
-                return false; // Closing bracket with no opening
+                return false;
             }
             char top = s.top();
             s.pop();
             if ((c == ')' && top != '(') ||
                 (c == '}' && top != '{') ||
                 (c == ']' && top != '[')) {
-                return false; // Mismatched brackets
+                return false; 
             }
         }
     }
-    return s.empty(); // Stack should be empty if all brackets are matched
+    return s.empty();
 }
 
 int main() {

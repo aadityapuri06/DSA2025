@@ -1,4 +1,4 @@
-// Q2: Remove duplicates from array
+
 #include <iostream>
 using namespace std;
 

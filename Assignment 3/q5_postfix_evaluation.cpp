@@ -1,8 +1,7 @@
-// 5. Write a program for the evaluation of a Postfix expression.
 #include <iostream>
 #include <string>
 #include <stack>
-#include <cmath> // For pow
+#include <cmath> 
 using namespace std;
 
 int evaluatePostfix(string exp) {
@@ -11,13 +10,11 @@ int evaluatePostfix(string exp) {
     for (int i = 0; i < exp.length(); i++) {
         char c = exp[i];
 
-        // If the scanned character is an operand (number),
-        // push it to the stack.
+        
         if (isdigit(c)) {
             st.push(c - '0');
         }
-        // If the scanned character is an operator,
-        // pop two elements from stack and apply the operator.
+        
         else {
             int val1 = st.top();
             st.pop();

@@ -1,4 +1,4 @@
-// Q5: Sum of every row and column in 2D array
+
 #include <iostream>
 using namespace std;
 
@@ -10,7 +10,7 @@ int main() {
     for (int i = 0; i < n; i++)
         for (int j = 0; j < m; j++)
             cin >> a[i][j];
-    // Row sums
+    
     cout << "Row sums: ";
     for (int i = 0; i < n; i++) {
         int sum = 0;
@@ -19,7 +19,7 @@ int main() {
         cout << sum << " ";
     }
     cout << endl;
-    // Column sums
+    
     cout << "Column sums: ";
     for (int j = 0; j < m; j++) {
         int sum = 0;

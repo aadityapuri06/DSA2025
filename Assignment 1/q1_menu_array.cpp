@@ -1,4 +1,4 @@
-// Q1: Menu driven program for array operations
+
 #include <iostream>
 using namespace std;
 

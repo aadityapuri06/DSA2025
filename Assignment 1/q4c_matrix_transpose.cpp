@@ -1,4 +1,4 @@
-// Q4c: Transpose of matrix
+
 #include <iostream>
 using namespace std;
 

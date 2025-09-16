@@ -1,4 +1,4 @@
-// Q3: Predict output
+
 #include <iostream>
 using namespace std;
 
@@ -9,4 +9,4 @@ int main() {
         printf("%d", arr[i]);
     return 0;
 }
-// Output: 1 0 0 0 0
+

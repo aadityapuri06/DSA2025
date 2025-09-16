@@ -1,4 +1,4 @@
-// Q4b: Matrix multiplication
+
 #include <iostream>
 using namespace std;
 
@@ -21,7 +21,7 @@ int main() {
     for (int i = 0; i < p; i++)
         for (int j = 0; j < q; j++)
             cin >> b[i][j];
-    // Multiply
+   
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < q; j++) {
             c[i][j] = 0;
